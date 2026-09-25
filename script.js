@@ -23,10 +23,10 @@
 
   const roles = [
     'DevOps Engineer',
-    'Kubernetes & Ansible',
+    'Jira Cloud Specialist',
+    'Kubernetes & Docker',
     'CI/CD Pipeline Builder',
-    'Infrastructure Automation',
-    'Jira Cloud Specialist'
+    'Infrastructure Automation'
   ];
   const typedEl = document.getElementById('typed');
   let roleIndex = 0, charIndex = 0, deleting = false;
