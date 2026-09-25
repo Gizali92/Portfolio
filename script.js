@@ -25,7 +25,8 @@
     'DevOps Engineer',
     'Kubernetes & Ansible',
     'CI/CD Pipeline Builder',
-    'Infrastructure Automation'
+    'Infrastructure Automation',
+    'Jira Cloud Specialist'
   ];
   const typedEl = document.getElementById('typed');
   let roleIndex = 0, charIndex = 0, deleting = false;
