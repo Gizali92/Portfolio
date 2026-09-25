@@ -245,10 +245,30 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* Skills */
+.skills-subhead {
+  font-family: var(--mono);
+  font-size: .8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  color: var(--accent);
+  margin: 0 0 16px;
+}
+
+.skills-subhead-secondary {
+  margin-top: 40px;
+  color: var(--text-dim);
+}
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  align-items: stretch;
   gap: 18px;
+}
+
+.skills-grid-featured {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
 .skill-card {
@@ -256,6 +276,9 @@ a { color: inherit; text-decoration: none; }
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   transition: transform .2s ease, border-color .2s ease;
 }
 
